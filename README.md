@@ -1,4 +1,4 @@
 # landingpage voor LAM
 
 #### dit is de github repository van Alex Marquez Lourenco en Shi Hua Liu.
-#### hier komt de link van onze website.
+#### link naar onze LAM website: http://31684.hosts1.ma-cloud.nl/alle%20mappen/BOlandingpage/LAM.html
