@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 style
 body {
     <div class="begin">
@@ -42,3 +43,14 @@ body {
 .begin {
   background-image: url("../afb/LAM_gebouw.jpg");
 }
+=======
+menu {
+    background-color: #996F52;
+}
+.container {
+    background-image: url("../afb/Lam_gebouw(2).jpg");
+    width: 1220px;
+    min-height: 1220px;
+    margin: 0 auto;
+}
+>>>>>>> 6d6423d8125e41c6bbe032e632a0dae05628d8c3
