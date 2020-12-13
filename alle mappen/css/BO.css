@@ -1,13 +1,17 @@
-<<<<<<< HEAD
-style
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
 body {
-    <div class="begin">
-   {font-family: Arial, Helvetica, sans-serif;}
+    
+   font-family: Arial, Helvetica, sans-serif;}
 
 .navbar {
   width: 100%;
-  background-color: #555;
+  background-color: #996F52;
   overflow: auto;
+  float: right;
 }
 
 .navbar a {
@@ -22,9 +26,7 @@ body {
   background-color: #000;
 }
 
-.active {
-  background-color: #4CAF50;
-}
+
 
 @media screen and (max-width: 500px) {
   .navbar a {
@@ -40,17 +42,47 @@ body {
   font-size: 23;
 }
 
-.begin {
-  background-image: url("../afb/LAM_gebouw.jpg");
-}
-=======
+
 menu {
-    background-color: #996F52;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#tekstballon{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.5);  
+    margin-top: 200px;
+}
+
+#tekstballon2{
+  border: 2px solid white;
+  padding: 50px;
+  border-radius: 25px;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.5);  
+  margin-top: 400px;
 }
 .container {
     background-image: url("../afb/Lam_gebouw(2).jpg");
-    width: 1220px;
-    min-height: 1220px;
-    margin: 0 auto;
+    height: 900px;
 }
->>>>>>> 6d6423d8125e41c6bbe032e632a0dae05628d8c3
+
+.container2 {
+  background-image: url("../afb/Schilderij.png");
+    height: 900px;
+}
+
+.tekst{
+  color: white;
+  padding-left: 20px;
+}
+
+footer{
+  height: 100px;
+  background-color: #996F52;
+}
+
