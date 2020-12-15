@@ -4,23 +4,40 @@
 }
 
 body {
-    
-   font-family: Arial, Helvetica, sans-serif;}
+ font-family: Arial, Helvetica, sans-serif;
+}
+
 
 .navbar {
   width: 100%;
   background-color: #996F52;
   overflow: auto;
   float: right;
+  
 }
 
 .navbar a {
-  float: left;
-  padding: 12px;
+  float: right;
+  padding: 18px;
   color: white;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 34px;
 }
+
+.navbar2 {
+  width: 100%;
+  background-color: #996F52;
+  overflow: auto;
+  text-align: center;
+}
+.navbar2 a {
+  text-align: center;
+  padding: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+}
+
 
 .navbar a:hover {
   background-color: #000;
