@@ -4,103 +4,102 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
- }
- 
- 
- .navbar {
-   width: 100%;
-   background-color: #996F52;
-   overflow: auto;
-   float: right;
-   
- }
- 
- .navbar a {
-   float: right;
-   padding: 18px;
-   color: white;
-   text-decoration: none;
-   font-size: 34px;
- }
- 
- .navbar2 {
-   width: 100%;
-   background-color: #996F52;
-   overflow: auto;
-   text-align: center;
- }
- .navbar2 a {
-   text-align: center;
-   padding: 30px;
-   color: white;
-   text-decoration: none;
-   font-size: 28px;
- }
- 
- 
- .navbar a:hover {
-   background-color: #000;
- }
- 
- 
- 
- @media screen and (max-width: 500px) {
-   .navbar a {
-     float: none;
-     display: block;
-   }
- }
- 
- .container{
-   margin: 0;
-   padding: 0;
-   font-family: sans-serif;
-   font-size: 23;
- }
- 
- 
- menu {
-     border: 2px solid white;
-     padding: 10px;
-     border-radius: 25px;
- }
- 
- #tekstballon{
-     border: 2px solid white;
-     padding: 10px;
-     border-radius: 25px;
-     float: left;
-     background-color: rgba(255, 255, 255, 0.5);  
-     margin-top: 200px;
- }
- 
- #tekstballon2{
-   border: 2px solid white;
-   padding: 50px;
-   border-radius: 25px;
-   float: right;
-   background-color: rgba(255, 255, 255, 0.5);  
-   margin-top: 400px;
- }
- .container {
-     background-image: url("../afb/Lam_gebouw(2).jpg");
-     height: 900px;
- }
- 
- .container2 {
-   background-image: url("../afb/Schilderij.png");
-     height: 900px;
- }
- 
- .tekst{
-   color: white;
-   padding-left: 20px;
- }
- 
- footer{
-   height: 100px;
-   background-color: #996F52;
- }
- 
- 
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #996F52;
+  overflow: auto;
+  float: right;
+  
+}
+
+.navbar a {
+  float: right;
+  padding: 18px;
+  color: white;
+  text-decoration: none;
+  font-size: 34px;
+}
+
+.navbar2 {
+  width: 100%;
+  background-color: #996F52;
+  overflow: auto;
+  text-align: center;
+}
+.navbar2 a {
+  text-align: center;
+  padding: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.container{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 23;
+}
+
+
+menu {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#tekstballon{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.5);  
+    margin-top: 200px;
+}
+
+#tekstballon2{
+  border: 2px solid white;
+  padding: 50px;
+  border-radius: 25px;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.5);  
+  margin-top: 400px;
+}
+.container {
+    background-image: url("../afb/Lam_gebouw(2).jpg");
+    height: 900px;
+}
+
+.container2 {
+  background-image: url("../afb/Schilderij.png");
+    height: 900px;
+}
+
+.tekst{
+  color: white;
+  padding-left: 20px;
+}
+
+footer{
+  height: 100px;
+  background-color: #996F52;
+}
+
