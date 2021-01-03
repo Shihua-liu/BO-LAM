@@ -129,6 +129,20 @@ footer label{
   margin-top: 35px;
 }
 
+footer ul{
+  padding-right: 4px;
+  padding-top: 2px;
+}
+
+footer input{
+  max-width: 110%;
+  max-height: 110%;
+}
+
+footer h1{
+  padding-left: 5px;
+}
+
 
 
 
