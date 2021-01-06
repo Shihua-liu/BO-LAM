@@ -1,35 +1,83 @@
-** {
-  opvulling : 0 % ;
-  marge : 0 % ;
+*{
+  padding: 0%;
+  margin: 0%;
 }
 
-lichaam {
- font-family : Arial , Helvetica , sans-serif;
+body{
+ font-family: Arial, Helvetica, sans-serif;
 }
 
-. navbar  img {
-  max-breedte : 10 % ;
-  max-hoogte : 10 % ;
-  boven : 3 px ;
-  links : 5 px ;
-  positie : absoluut;
+.navbar img {
+  max-width: 10%;
+  max-height: 10%;
+  top: 3px;
+  left: 5px;
+  position: absolute;
 }
 
-. navigatiebalk {
-  breedte : 100 % ;
-  achtergrondkleur : # 996F52 ;
-  overloop : auto;
+.navbar {
+  width: 100%;
+  background-color: #996F52;
+  overflow: auto;
   
 }
 
-. navbar  a {
-  zweven : rechts;
-  opvulling : 18 px ;
-  kleur : wit;
-  tekstversiering : geen;
-  lettergrootte : 34 px ;
+.navbar a {
+  float: right;
+  padding: 18px;
+  color: white;
+  text-decoration: none;
+  font-size: 34px;
 }
-. container {
-  achtergrondafbeelding : url ( "../afb/Lam_gebouw(2).jpg" );
-  hoogte : 1000 px ;
+
+.navbar2 {
+  width: 100%;
+  background-color: #996F52;
+  overflow: hidden;
+  text-align: center;
+  font-size: 37px;
+  z-index: 1;
+}
+.navbar2 a {
+  text-align: center;
+  padding: 40px;
+  color: white;
+  text-decoration: none;
+  
+}
+.navbar2 li {
+  display: inline;
+  margin: 30px;
+  background-color: none;
+  padding: 10px;
+  
+}
+
+.navbar a:hover{
+  background-color: #000;
+}
+
+.navbar2 a:hover{
+  background-color: #000;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.container{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 23;
+  padding-left: 30px;
+}
+.container {
+  background-image: url("../afb/Lam_gebouw(2).jpg");
+  height: 1000px;
 }
