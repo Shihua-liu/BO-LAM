@@ -5,6 +5,17 @@
 
 body{
  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#tekstballon{
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 25px;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.5);  
+  margin-top: 200px;
+
 }
 
 .navbar img {
@@ -30,37 +41,10 @@ body{
   font-size: 34px;
 }
 
-.navbar2 {
-  width: 100%;
-  background-color: #996F52;
-  overflow: hidden;
-  text-align: center;
-  font-size: 37px;
-  z-index: 1;
-}
-.navbar2 a {
-  text-align: center;
-  padding: 40px;
-  color: white;
-  text-decoration: none;
-  
-}
-.navbar2 li {
-  display: inline;
-  margin: 30px;
-  background-color: none;
-  padding: 10px;
-  
-}
 
 .navbar a:hover{
   background-color: #000;
 }
-
-.navbar2 a:hover{
-  background-color: #000;
-}
-
 
 
 @media screen and (max-width: 500px) {
@@ -79,5 +63,42 @@ body{
 }
 .container {
   background-image: url("../afb/Lam_gebouw(2).jpg");
-  height: 1000px;
+  height: 800px;
 }
+
+#wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3{
+  padding-left: 800px;
+  padding-top: -1700px;
+}
+
+
+footer{
+  background-color: #996F52;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer label{
+  margin-top: 35px;
+  max-block-size: 150%;
+}
+
+footer ul{
+  padding-right: 9px;
+  padding-top: 2px;
+}
+
+footer input{
+  max-width: 110%;
+  max-height: 110%;
+}
+
+footer h1{
+  padding-left: 8px;
+}
+footer a{
+  padding-left: 8px;
+}
+
