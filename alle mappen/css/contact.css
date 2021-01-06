@@ -1,40 +1,35 @@
-*{
-    padding: 0%;
-    margin: 0%;
-  }
-  
-  body{
-   font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .navbar img {
-    max-width: 10%;
-    max-height: 10%;
-    top: 3px;
-    left: 5px;
-    position: absolute;
-  }
-  
-  .navbar {
-    width: 100%;
-    background-color: #996F52;
-    overflow: auto;
-    
-  }
-  
-  .navbar a {
-    float: right;
-    padding: 18px;
-    color: white;
-    text-decoration: none;
-    font-size: 34px;
-  }
-  .container {
-    background-image: url("../afb/Lam_gebouw(2).jpg");
-    height: 1000px;
-  }
+** {
+  opvulling : 0 % ;
+  marge : 0 % ;
+}
 
+lichaam {
+ font-family : Arial , Helvetica , sans-serif;
+}
 
+. navbar  img {
+  max-breedte : 10 % ;
+  max-hoogte : 10 % ;
+  boven : 3 px ;
+  links : 5 px ;
+  positie : absoluut;
+}
+
+. navigatiebalk {
+  breedte : 100 % ;
+  achtergrondkleur : # 996F52 ;
+  overloop : auto;
   
-  
-  
+}
+
+. navbar  a {
+  zweven : rechts;
+  opvulling : 18 px ;
+  kleur : wit;
+  tekstversiering : geen;
+  lettergrootte : 34 px ;
+}
+. container {
+  achtergrondafbeelding : url ( "../afb/Lam_gebouw(2).jpg" );
+  hoogte : 1000 px ;
+}
