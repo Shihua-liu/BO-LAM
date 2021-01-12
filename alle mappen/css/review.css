@@ -29,36 +29,9 @@ body{
     text-decoration: none;
     font-size: 34px;
 }
-  
-.navbar2 {
-    width: 100%;
-    background-color: #996F52;
-    overflow: hidden;
-    text-align: center;
-    font-size: 37px;
-    z-index: 1;
-}
-.navbar2 a {
-    text-align: center;
-    padding: 40px;
-    color: white;
-    text-decoration: none;
-    margin-left: 70px;
-    margin-right: 70px;
-}
-.navbar2 li {
-    display: inline;
-    margin: 30px;
-    background-color: none;
-    padding: 10px;
-    
-}
+
   
 .navbar a:hover{
-    background-color: #000;
-}
-  
-.navbar2 a:hover{
     background-color: #000;
 }
   
@@ -77,6 +50,7 @@ body{
     font-family: sans-serif;
     font-size: 23;
     padding-left: 30px;
+
 }
   
   
@@ -87,64 +61,36 @@ menu {
      
   
 }
-  
-#tekstballon{
-      border: 2px solid white;
-      padding: 10px;
-      border-radius: 25px;
-      float: left;
-      background-color: rgba(255, 255, 255, 0.5);  
-      margin-top: 200px;
-      margin-left: 80px;
-      
-  
+
+#rev_foto{
+    border-radius: 50%;
+    width: 20%;
 }
-button{
-    background-color: #996F52;
-    border-color: #000;
-    border-radius: 4px;
-    margin-left: 65px;
-}
-button a {
-    color: black;
-    font-size: 20px;
-    margin: 10px;
-}
-#tekstballon2{
-    border: 2px solid white;
-    padding: 50px;
-    border-radius: 25px;
-    float: right;
-    background-color: rgba(255, 255, 255, 0.5);  
-    margin-top: 400px;
-    margin-right: 80px;
+.checked {
+    color: orange;
 }
 
-.ballon2{
-    padding-right: 30px;
-}
-  
-.container #video {
-    padding-top: 510px;
-    padding-left: 17px;
-    margin-left: 75px;
-}
-  
 .container {
     background-image: url("../afb/Lam_gebouw(2).jpg");
     height: 1000px;
-}
-  
-.container2 {
-    background-image: url("../afb/Schilderij.png");
-    height: 900px;  
 }
   
 .tekst{
     color: white;
     padding-left: 20px;
 }
-  
+
+.review{
+    margin: 200px 15px;
+    float: left;
+    width: 30%;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);  
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+
 footer{
     background-color: #996F52;
     color: white;
