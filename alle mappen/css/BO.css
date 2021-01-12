@@ -43,7 +43,8 @@ body{
   padding: 40px;
   color: white;
   text-decoration: none;
-  
+  margin-left: 70px;
+  margin-right: 70px;
 }
 .navbar2 li {
   display: inline;
@@ -94,9 +95,21 @@ menu {
     float: left;
     background-color: rgba(255, 255, 255, 0.5);  
     margin-top: 200px;
+    margin-left: 80px;
+    
 
 }
-
+button{
+  background-color: #996F52;
+  border-color: #000;
+  border-radius: 4px;
+  margin-left: 65px;
+}
+button a {
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+}
 #tekstballon2{
   border: 2px solid white;
   padding: 50px;
@@ -104,6 +117,7 @@ menu {
   float: right;
   background-color: rgba(255, 255, 255, 0.5);  
   margin-top: 400px;
+  margin-right: 80px;
 }
 
 .ballon2{
@@ -113,6 +127,8 @@ menu {
 .container #video {
   padding-top: 510px;
   padding-left: 17px;
+  margin-left: 75px;
+
 }
 
 .container {
