@@ -58,9 +58,8 @@ menu {
       border: 2px solid white;
       padding: 10px;
       border-radius: 25px;
-     
-  
 }
+
 
 #rev_foto{
     border-radius: 50%;
@@ -83,12 +82,12 @@ menu {
 .review{
     margin: 200px 15px;
     float: left;
-    width: 30%;
+    width: 22%;
     border: 2px solid white;
     background-color: rgba(255, 255, 255, 0.5);  
-    padding: 10px;
+    padding: 20px;
     border-radius: 25px;
-    
+    margin-left: 110px;
 }
 
 footer{
