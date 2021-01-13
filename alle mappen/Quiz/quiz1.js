@@ -10,67 +10,29 @@ const quiz1 =
     "quizContent":		
 		[
 			{
-				"question": "In welk jaartal is het Lam museum geopend?",
+				"question": "klassieke of moderne kunst",
 				"answers": [{
-						"answer": "2019",
+						"answer": "moderne",
 						"feedback": true
 					},
 					{
-						"answer": "2018",
+						"answer": "klassiek",
 						"feedback": false
 					},
-					{
-						"answer": "2017",
-						"feedback": false
-					},
-					{
-						"answer": "2016",
-						"feedback": false
-					},
-					{
-						"answer": "2015",
-						"feedback": false
-					}
+					
 				]
 			},
 			{
-				"question": "LAM – Wie heeft het Lam museum opgericht?",
+				"question": "liever kunst met veel of weinig objecten?",
 				"answers": [{
-						"answer": "Rein Wolfs",
+						"answer": "veel",
 						"feedback": false
 					},
 					{
-						"answer": "Jan van den Broek",
+						"answer": "weinig",
 						"feedback": true
 					},
-					{
-						"answer": "Sophia Adriana de Bruyn",
-						"feedback": false
-					},
-					{
-						"answer": "Joop van Caldenborgh",
-						"feedback": false
-					}
-				]
-			},
-			{
-				"question": "wat voor type is het Lam Museam: ?",
-				"answers": [{
-						"answer": "Beelden Museam",
-						"feedback": false
-					},
-					{
-						"answer": "Wetenshap museum",
-						"feedback": false
-					},
-					{
-						"answer": "Schilderijen museum",
-						"feedback": false
-					},
-					{
-						"answer": "Kunstmuseum",
-						"feedback": true
-					}
+					
 				]
 			}
 		]

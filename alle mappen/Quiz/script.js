@@ -60,7 +60,7 @@ function evaluate(evt) {
   if(!quiz.answerClicked){
     if (evt.target.score) {
       evt.target.className = "right";
-      playerData.goodAnswers += 1; // increase good score
+      playerData.goodAnswers += 3; // increase good score
       console.log("correct answer");
     } else {
       evt.target.className = "wrong";
@@ -79,7 +79,14 @@ function finishQuiz() {
   questionBox.style.display = "none";
   resultBox.style.display = "block";
   quizWrapper.style.background = "silver";
-  resultBox.innerHTML = "<h2>Jouw resultaat <br>goede antwoorden " + playerData.goodAnswers + "<br>foute antwoorden " + playerData.wrongAnswers + "</h2>";
+  var punten = playerData.goodAnswers += playerData.wrongAnswers
+  
+  if (punten <= 3){
+    resultBox.innerHTML = document.getElementById("eind_img").image.src = "https://i0.wp.com/jtravelblog.nl/wp-content/uploads/Lisse-074.jpg?w=1400&ssl=1"
+  }
+  if (punten >= 4 && punten <= 6){
+    resultBox.innerHTML = document.getElementById("eind_img").image.src = "https://www.lamlisse.nl/wp-content/uploads/2018/03/IJsjes_Thiebaud-tiny.jpg"
+  }
 }
 
 init(); // start it
