@@ -13,6 +13,10 @@
 body{
   background-image: url("../afb/Lam_gebouw(2).jpg");
   font: 1em sans-serif;
+  margin: 0;
+}
+.container{
+  margin: 0;
 }
 .wrapper{
   overflow: hidden;
@@ -35,6 +39,7 @@ body{
   padding: 20px;
   width: 80%;
   margin-left:0px;
+  margin-top: 50px;
 }
 .questionBox-new{
   padding: 20px;
@@ -85,3 +90,63 @@ body{
   width: 60%;
   height: auto;
 }
+
+.navbar img {
+  max-width: 10%;
+  max-height: 10%;
+  top: 3px;
+  left: 5px;
+  position: absolute;
+}
+
+.navbar {
+  width: 100%;
+  height: 84px;
+  background-color: #996F52;
+  overflow: auto;
+  
+}
+
+.navbar a {
+  float: right;
+  padding: 18px;
+  color: white;
+  text-decoration: none;
+  font-size: 34px;
+}
+
+.navbar a:hover{
+  background-color: #000;
+}
+
+footer{
+  background-color: #996F52;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 485px;
+}
+
+footer label{
+  margin-top: 35px;
+  max-block-size: 150%;
+}
+
+footer ul{
+  padding-right: 9px;
+  padding-top: 2px;
+}
+
+footer input{
+  max-width: 110%;
+  max-height: 110%;
+}
+
+footer h1{
+  padding-left: 8px;
+}
+footer a{
+  padding-left: 8px;
+}
+
