@@ -136,11 +136,6 @@ button a {
   height: 1000px;
 }
 
-.container2 {
-  background-image: url("../afb/Schilderij.png");
-  height: 900px;
-    
-}
 
 .tekst{
   color: white;
@@ -156,7 +151,7 @@ footer{
 }
 
 footer label{
-  margin-top: 35px;
+ 
   max-block-size: 150%;
 }
 
@@ -177,6 +172,24 @@ footer a{
   padding-left: 8px;
 }
 
+.fotoslider{
+  width: 100%;
+  height: 1080px;
+  position: relative;
+}
 
+.slide{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  position: center;
+  overflow: hidden;
+  transition: opacity linear 1s;
+}
 
-
+.slide img{
+  width: 100%;
+  height: auto;
+}
