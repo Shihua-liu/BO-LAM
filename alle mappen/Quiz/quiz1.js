@@ -13,11 +13,11 @@ const quiz1 =
 				"question": "klassieke of moderne kunst",
 				"answers": [{
 						"answer": "moderne",
-						"feedback": true
+						"feedback": false
 					},
 					{
 						"answer": "klassiek",
-						"feedback": false
+						"feedback": true
 					},
 					
 				]

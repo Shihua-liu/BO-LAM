@@ -41,7 +41,7 @@ body{
   width: 80%;
   margin-left:0px;
   animation-name: newQuestion;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 
 .myAnswer{
