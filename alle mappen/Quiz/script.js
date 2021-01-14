@@ -11,6 +11,9 @@ let quiz; // object met quiz vragen
 let playerData = {}; // object, hierin worden de game gegevens opgeslagen
 
 function init(){
+   document.getElementById("eind_img1").style.display = "none"
+   document.getElementById("eind_img2").style.display = "none"
+   document.getElementById("eind_text").style.display = "none"
     quiz = quiz1; // kies de quiz
     //quiz = quiz2; // kies de quiz
     initQuiz(); // start de quiz
@@ -61,11 +64,11 @@ function evaluate(evt) {
     if (evt.target.score) {
       evt.target.className = "right";
       playerData.goodAnswers += 3; // increase good score
-      console.log("correct answer");
+      console.log("3");
     } else {
       evt.target.className = "wrong";
       playerData.wrongAnswers += 1; // increase wrong score
-      console.log("wrong answer");
+      console.log("1");
     }
     quiz.answerClicked=true; // prevent double click
   }
@@ -80,21 +83,21 @@ function finishQuiz() {
   resultBox.style.display = "block";
   quizWrapper.style.backgroundImage = "none"
   var punten = playerData.goodAnswers += playerData.wrongAnswers
-  
+  console.log(punten)
   if (punten == 2){
-    document.getElementById("eind_img2").style.display.innerHTML = "block";
-    document.getElementById("eind_text").style.display.innerHTML = "block";
-    document.getElementById("eind_img1").style.display.innerHTML = "none";
+    document.getElementById("eind_img2").style.display = "block";
+    document.getElementById("eind_text").style.display = "block";
+    document.getElementById("eind_img1").style.display = "none";
   }
   if (punten == 4){
-    document.getElementById("eind_img1").style.display.innerHTML = "block";
-    document.getElementById("eind_text").style.display.innerHTML = "block";
-    document.getElementById("eind_img2").style.display.innerHTML = "none";
+    document.getElementById("eind_img1").style.display = "block";
+    document.getElementById("eind_text").style.display = "block";
+    document.getElementById("eind_img2").style.display = "none";
   }
   if (punten == 6){
-    document.getElementById("eind_img2").style.display.innerHTML = "block";
-    document.getElementById("eind_text").style.display.innerHTML = "block";
-    document.getElementById("eind_img1").style.display.innerHTML = "none";
+    document.getElementById("eind_img2").style.display = "block";
+    document.getElementById("eind_text").style.display = "block";
+    document.getElementById("eind_img1").style.display = "none";
   }
 }
 

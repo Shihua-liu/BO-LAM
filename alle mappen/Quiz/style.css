@@ -80,3 +80,8 @@ body{
   animation-name: wrongAnswerAnimation;
   animation-duration: 4s;
 }
+
+#eind_img2{
+  width: 60%;
+  height: auto;
+}
