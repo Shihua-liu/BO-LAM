@@ -11,5 +11,5 @@ window.addEventListener('DOMContentLoaded', (event) => {
         slides[id].style.opacity = 0;
         id = (id + 1) % slides.length;
         slides[id].style.opacity = 1;
-    }, 10000);
+    }, 5000);
 });
