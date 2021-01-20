@@ -4,13 +4,13 @@ const quiz1 =
     "quizMetaData":
     {
         "title": "Lisser Art Museum",
-        "imageURI": "https://www.lamlisse.nl/wp-content/uploads/2018/03/LAM-Lisse-logo-white.svg"
+        "imageURI": "https://www.lamlisse.nl/wp-content/uploads/2020/04/FRIE-319-Untitled-Self-Portrait_6-scaled.jpg"
 
     },
     "quizContent":		
 		[
 			{
-				"question": "klassieke of moderne kunst",
+				"question": "Heeft u liever klassieke of moderne kunst",
 				"answers": [{
 						"answer": "moderne",
 						"feedback": false
@@ -22,8 +22,9 @@ const quiz1 =
 					
 				]
 			},
+			
 			{
-				"question": "liever kunst met veel of weinig objecten?",
+				"question": "Heeft u liever kunst met veel of weinig objecten?",
 				"answers": [{
 						"answer": "veel",
 						"feedback": false
